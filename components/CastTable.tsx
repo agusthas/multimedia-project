@@ -5,7 +5,7 @@ interface UsersTableProps {
   data: { avatar: string; name: string; job: string; nim: string }[];
 }
 
-const jobColors = {
+const jobColors: Record<string, string> = {
   cameraman: 'blue',
   'script writer': 'cyan',
   editor: 'pink',
